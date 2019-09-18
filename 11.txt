@@ -1,0 +1,124 @@
+// 家长登录
+public static final String EVENT_PARENT_LOGIN = "event_parent_login";
+
+	// 学生登录
+public static final String EVENT_STUDENT_LOGIN = "event_student_login";
+
+	// 游客浏览
+public static final String EVENT_GUEST_LOGIN = "event_guest_login";
+
+	// 注册
+public static final String EVENT_REGISTER = "event_register";
+
+	// 找回密码
+public static final String EVENT_FORGET_PWD = "event_forget_pwd";
+
+	// 互动—查看互动消息
+public static final String EVENT_NOTIFY_REVIEW = "event_notify_review";
+
+	// 互动—发消息
+public static final String EVENT_SEND_MESSAGE = "event_send_message";
+	// 互动—收藏夹
+public static final String EVENT_INTERACT_FAVORITE = "event_interact_Favorite";
+
+	// 互动—批量删除
+public static final String EVENT_INTERACT_BATCH_DELETE = "event_interact_batch_delete";
+
+	// 校园—考勤
+public static final String EVENT_SCHOOLYARD_ATTENDANCE = "event_schoolyard_attendance";
+
+	// 校园—通讯录
+public static final String EVENT_SCHOOLYARD_CONTACTS = "event_schoolyard_contacts";
+
+	// 校园—护眼灯
+public static final String EVENT_SCHOOLYARD_HILIGHT = "event_schoolyard_hilight";
+
+	// 校园—助守
+public static final String EVENT_SCHOOLYARD_MDM = "event_schoolyard_MDM";
+
+	// 校园—班级邀请
+public static final String EVENT_SCHOOLYARD_RECOMMEND = "event_schoolyard_recommend";
+
+	// 校园-订阅号
+public static final String EVENT_SCHOOLYARD_PUBLICOFFICE = "event_schoolyard_publicoffice";
+
+	// 订阅号—搜索
+public static final String EVENT_PUBLICOFFICE_SERCH = "event_publicoffice_serch";
+
+	// 订阅号—新增查找
+public static final String EVENT_PUBLICOFFICE_ATTENTION = "event_publicoffice_attention";
+
+	// 精选
+public static final String EVENT_SELECTED = "event_selected";
+
+	// 精选-班级+
+public static final String EVENT_SELECTED_FORUM_LIST = "event_selected_forum_list";
+
+	// 学习
+public static final String EVENT_RESOURCE = "event_resource";
+
+	// 设置
+public static final String EVENT_SETTING = "event_setting";
+
+	// 设置—个人资料
+public static final String EVENT_SETTING_MYINFO = "event_setting_myinfo";
+
+	// 设置-我的主页
+public static final String EVENT_SETTING_MYHOMEPAGE = "event_setting_myhomepage";
+
+	// 我的主页—发评论
+public static final String EVENT_SETTING_MYHOMEPAGE_COMMIT = "event_setting_myhomepage_commit";
+
+	// 设置—功能设置
+public static final String EVENT_SETTING_FUNCTION_SET = "event_setting_function_set";
+
+	// 功能设置—新消息提醒
+public static final String EVENT_SETTING_NEW_MESSAGE_ALTER = "event_setting_new_message_alter";
+
+	// 功能设置—通用
+public static final String EVENT_SETTING_GENERAL = "event_setting_general";
+
+	// 功能设置—隐私
+public static final String EVENT_SETTING_PRIVACY = "event_setting_privacy";
+
+	// 功能设置—关于云南和校园
+public static final String EVENT_SETTING_ABOUT = "event_setting_about";
+
+	// 设置—退出
+public static final String EVENT_SETTING_EXIT = "event_setting_exit";
+
+	// 设置—意见反馈
+public static final String EVENT_SETTING_FEEDBACK = "event_setting_feedback";
+
+	//------------------ 老师相对家长新增事件
+	// 教师登录
+public static final String EVENT_TEACHER_LOGIN = "event_teacher_login";
+	// 互动—发通知
+public static final String EVENT_SEND_NOTIFY = "event_send_notify";
+
+	// 通知—已发通知
+public static final String EVENT_NOTIFY_SENDED = "event_notify_sended";
+
+	// 通知—查看已收通知详细
+public static final String EVENT_NOTIFY_RECEIVER_DETAIL = "event_notify_receiver_detail";
+
+	// 通知—查看已发通知详细
+public static final String EVENT_NOTIFY_SENDED_DETAIL = "event_notify_sended_detail";
+
+	// 互动—发作业
+public static final String EVENT_SEND_HOMEWORK= "event_send_homework";
+	// 作业-已发作业
+public static final String EVENT_HOMEWORK_SENDED = "event_homework_sended";
+	// 互动—发评价
+public static final String EVENT_SEND_PERFORMANCE= "event_send_performance";
+	// 评语-评价记录
+public static final String EVENT_PERFORMANCE_SENDED = "event_performance_sended";
+
+	// 互动—发聊天
+public static final String EVENT_SEND_CHAT_MESSAGE= "event_send_chat_message";
+	// 聊天—查看聊天记录
+public static final String EVENT_REVIEW_CHAT_MESSAGE= "event_review_chat_message";
+
+	//设置-教学信息
+public static final String EVENT_SETTING_CLASS_INFO= "event_setting_class_info";
+

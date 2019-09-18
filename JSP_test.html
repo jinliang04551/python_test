@@ -1,0 +1,63 @@
+
+<!DOCTYPE html PUBLIC "">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>hello world!</title>
+<meta http-equiv="Content-type" content="text/html; charset="utf-8" />
+<script type="text/javascript" defer="defer">
+//<[CDATA[
+//part one test
+// function encodeStrings () {
+//  var sOne  = encodeURIComponent("http://buringbird.net/index.php?pagename=$1&page=$2");
+//  var sTwo = encodeURI("http://someapplication.com/?catsname=Z");
+//  var sOutput = "<p>Link is " + sTwo + sOne + "</p>";
+//  document.write(sOutput);
+
+//  var sOneDecoded = decodeURI(sTwo);
+//  var sTwoDecoded = decodeURIComponent(sOne);
+
+//  var sOutputDecoded = "<p>" + sOneDecoded + "<p></p>" +  sTwoDecoded + "</p>";
+//  document.write(sOutputDecoded);
+
+//  var num_value = 35.00;
+//  var string_value = "this is a number:" + num_value + "<br>";
+//  document.write(string_value);
+
+//  var firstResult = "35" + 3;
+//  document.write(firstResult);
+
+// }
+
+//part two for test
+
+
+function  convertToNumber() {
+	var sNum = "1.23e-2";
+	document.writeln("<p>" + parseFloat(sNum) + "</p>");
+	document.writeln("<p>" + parseInt(sNum) + "</p>");
+
+	var fValue = parseFloat("1.45 inch");
+	document.writeln("<p>" + fValue + "</p>");
+
+	var iValue = parseInt("-33.50");
+	document.writeln("<p>" + iValue + "</p>");
+
+	var isFiniteValue = isFinite(iValue);
+	document.writeln("<p>" + isFiniteValue + "</p>");
+
+	var nullValue = null;
+	if (nullValue) {
+		document.writeln("<p>" + nullValue + "</p>");
+	}else {
+		document.writeln("<p>" + "not invalid Var" + "</p>");
+	}
+}
+//]]>
+</script>
+</head>
+
+<body onload="convertToNumber()">
+
+</body>
+</html>
